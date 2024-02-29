@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+     }
+     .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 300px;
+     }
+     caption{
+        font-weight: bold;
+        align-items: center;
+        margin-bottom: 20px;
+     }
+     .subject1{
+        color: lightblue;
+     }
+     .subject2{
+        color: orange;
+     }
+     .subject3{
+        color:purple;
+     }
+     .subject4{
+        color: green;
+     }
+     .subject5{
+        color: red;
+     }
+     .subject6{
+        color: black;
+     }
+     .subject7{
+        color: black;
+        font-weight: lighter;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table border="2px">
+            <caption>college time table</caption>
+            <tr>
+                <td></td>
+                <td class="subject7">8:30-9:30</td>
+                <td class="subject7">9:30-10:30</td>
+                <td class="subject7">10:30-11:30</td>
+                <td class="subject7">11:30-12:30</td>
+                <td class="subject7">12:30-2:00</td>
+                <td class="subject7">2:00-3:00</td>
+                <td class="subject7">3:00-4:00</td>
+                <td class="subject7">4:00-5:00</td>
+            </tr>
+            <tr>
+               <td class="subject7">Monday</td>
+               <td>---</td>
+               <td class="subject1">sub1</td>
+               <td class="subject2">sub2</td>
+               <td class="subject3">sub3</td>
+               <td rowspan="7" style="writing-mode: vertical-rl; text-orientation: upright;">lunch</td>
+               <td class="subject4">sub4</td>
+               <td class="subject5">sub5</td>
+               <td class="subject6">counselling class</td>
+            </tr>
+            <tr>
+                <td class="subject7">Tuesday</td>
+                <td class="subject1">sub1</td>
+                <td class="subject2">sub2</td>
+                <td class="subject3">sub3</td>
+                <td>---</td>
+                <td class="subject2">sub2</td>
+                <td class="subject2">sub2</td>
+                <td class="subject7">library</td>
+            </tr>
+            <tr>
+                <td class="subject7">wednesday</td>
+                <td class="subject1">sub1</td>
+                <td class="subject2">sub2</td>
+                <td>swa</td>
+                <td>---</td>
+                <td colspan="3" class="subject6">lab</td>
+            </tr>
+            <tr>
+                <td class="subject7">Thursday</td>
+                <td class="subject1">sub1</td>
+                <td class="sub2">sub2</td>
+                <td class="subject3">sub3</td>
+                <td>---</td>
+                <td class="subject2">sub2</td>
+                <td class="subject2">sub2</td>
+                <td class="subject7">library</td>
+            </tr>
+            <tr>
+                <td class="subject7">Friday</td>
+                <td class="subject1">sub1</td>
+                <td class="subject2">sub2</td>
+                <td class="subject3">sub3</td>
+                <td>---</td>
+                <td class="subject4">sub4</td>
+                <td class="subject5">sub5</td>
+                <td class="subject7">Library</td>
+            </tr>
+            <tr>
+                <td class="subject7">Saturday</td>
+                <td class="subject1">sub1</td>
+                <td colspan="3" class="subject6">seminar</td>
+                <td class="subject4">sub4</td>
+                <td class="subject5">sub5</td>
+                <td class="subject7">library</td>
+            </tr>
+        </table>
+     
+    </div>
+   
+</body>
+</html>
