@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        form{
+            background: color #f2f2f2;
+            width: 30%;
+            height: 80vh;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow:10px 10px 30px burlywood;
+            margin-left: 35%;
+            
+        }
+        .input-field{
+            width: 95%;
+            height: 30px;
+            border-radius: 5px;
+            color:black;
+            margin-left: 4px;
+            border:2px solid rgb(236, 230, 230)
+
+        }
+        form label{
+            color: black;
+            font-weight: 800;
+            display: inline-block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        h2{
+            color: green;
+            margin-left: 33px;
+        }
+        input[type='range']{
+            color: green;
+           
+        }
+        h1{
+            color: green;
+            font-weight: 700;
+            margin-left: 43%;
+
+        }
+        input[type= submit],input[type=reset]{
+          background-color: rgb(67, 197, 67);
+          padding: 10px;
+          border-radius: 5px;
+          width: 90px;
+          border: none;
+          color: azure;
+          transition: 0.5s all linear;
+        }
+        .button{
+            margin-top: 10px;
+            display: flex;
+            justify-content:center;
+            gap: 3px;
+
+        }
+        .btn:hover{
+            background-color: rgb(87, 87, 198);
+        }
+       
+        
+            
+    
+    </style>
+</head>
+<body>   <h1>Registration Form</h1>
+        <form action="#">
+            <br> <label>Name:</label> <br>
+             <input type="text" placeholder="Enter Your name" required class="input-field"> <br>
+             <br><label>Password:</label> <br>
+             <input type="password" required placeholder="Enter your password"class="input-field"><br>
+             <br><label>Confirm Password:</label> <br>
+             <input type="password" placeholder="Confirm password" class="input-field"><br>
+             <br> <label>Contact Number:</label> <br>
+             <input type="tel" placeholder="Enter a number" class="input-field" maxlength="10"> <br>
+             <br><label>Skill Range:</label> <br>
+             <input type="range" class="input-field"> <br>
+             <br><label>Email:</label> <br>
+             <input type="email" placeholder="Enter Your email" class="input-field"> <br>
+             <br><label>Profile URL:</label> <br>
+             <input type="url" placeholder="Enter a URL" class="input-field"> <br>
+             <br><label>Resume:</label> <br>
+             <input type="file" class="input-field" ><br>
+             <div class="button">
+                <input type="submit" class="btn">
+                <input type="reset" class="btn">
+             </div>
+            
+          </form>
+
+</body>
+</html>
