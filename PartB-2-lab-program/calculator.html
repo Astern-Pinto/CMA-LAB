@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+      <div class="container">
+         <div class="calculator-container">
+            <table class="calculator" >
+               <tr>
+                   <td colspan="3">
+                        <input type="text" id="result"class="display-box" disabled>
+                   </td>
+                    <td>
+                       <input type="button" value="C" id="btn-clr" onclick="clearscreen()">
+                    </td>
+               </tr>
+                    <tr>
+                       <td><input type="button" value="1"onclick="DisplayValue('1')" class="button"></td>
+                       <td><input type="button" value="2"onclick="DisplayValue('2')" class="button"></td>
+                       <td><input type="button" value="3"onclick="DisplayValue('3')" class="button"></td>
+                       <td><input type="button" value="/"onclick="DisplayValue('/')" class="operator"></td>
+                    </tr>
+                    <tr>
+                       <td><input type="button" value="4"onclick="DisplayValue('4')"class=button ></td>
+                       <td><input type="button" value="5"onclick="DisplayValue('5')"class=button ></td>
+                       <td><input type="button" value="6"onclick="DisplayValue('6')"class=button ></td>
+                       <td><input type="button" value="-"onclick="DisplayValue('-')" class="operator"></td>
+                    </tr>
+                    <tr>
+                       <td><input type="button" value="7"onclick="DisplayValue('7')" class="button"></td>
+                       <td><input type="button" value="8"onclick="DisplayValue('8')" class="button"></td>
+                       <td><input type="button" value="9"onclick="DisplayValue('9')" class="button"></td>
+                       <td><input type="button" value="+"onclick="DisplayValue('+')" class="operator"></td>
+                    </tr>
+                    <tr>
+                       <td><input type="button" value="."onclick="DisplayValue('.')"class="button"></td>
+                       <td><input type="button" value="0"onclick="DisplayValue('0')"class="button"></td>
+                       <td><input type="button" value="="id="btn"onclick=" Calcuate()" ></td>
+                       <td><input type="button" value="*"onclick="DisplayValue('*')"class="operator"></td>
+                    </tr>
+           </table>
+           
+         </div>
+      </div>
+ 
+</body>
+</html>
